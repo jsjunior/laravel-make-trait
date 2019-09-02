@@ -17,5 +17,10 @@
     "psr-4": {
       "UpInside\\LaravelMakeTrait\\": "src/"
     }
+  },
+  "laravel": {
+    "providers": [
+        "UpInside\\LaravelMakeTrait\\MakeTraitServiceProvider"
+    ]
   }
 }
