@@ -18,9 +18,11 @@
       "UpInside\\LaravelMakeTrait\\": "src/"
     }
   },
-  "laravel": {
-    "providers": [
-        "UpInside\\LaravelMakeTrait\\MakeTraitServiceProvider"
-    ]
-  }
+  "extra": {
+        "laravel": {
+            "providers": [
+              "UpInside\\LaravelMakeTrait\\MakeTraitServiceProvider"
+            ]
+        }
+    },
 }
