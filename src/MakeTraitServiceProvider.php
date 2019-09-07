@@ -12,22 +12,12 @@ class MakeTraitServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function register()
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
                 TraitMakeCommand::class,
             ]);
         }
-    }
-
-    /**
-     * Register the application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
     }
 }
