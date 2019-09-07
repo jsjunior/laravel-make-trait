@@ -1,5 +1,5 @@
 {
-  "name": "upinside/laravel-make-trait",
+  "name": "jsjunior/laravel-make-trait",
   "description": "Create trait in Laravel with the artisan command",
   "type": "library",
   "license": "MIT",
