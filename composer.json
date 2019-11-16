@@ -1,6 +1,7 @@
 {
   "name": "jsjunior/laravel-make-trait",
   "description": "Create trait in Laravel with the artisan command",
+  "keywords": ["laravel", "command", "artisan", "trait"],
   "type": "library",
   "license": "MIT",
   "authors": [
